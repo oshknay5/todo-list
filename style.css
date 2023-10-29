@@ -1,0 +1,147 @@
+body{
+background-image: url(https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9uZXl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+background-color: black;
+
+}
+#header{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: 'Caveat', cursive;
+}
+#heading{
+    color: rgb(228, 252, 253);
+    text-align: center;
+    font-size: 40px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+#inputField{
+    width: 400px;
+    height: 50px;
+    font-size: 32px;
+    border: none;
+    font-family: 'Caveat', cursive;
+    background-color: rgb(228, 252, 253);
+}
+#btn{
+    margin-left: 10px;
+    background-color: rgba(238, 245, 245, 0.945);
+    border: none;
+    
+ 
+}
+#containerBuy{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+} 
+.list{
+    list-style: none;
+    font-size: 32px;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    border: solid 1px rgb(102, 103, 171);
+    font-family: 'Caveat', cursive;
+    margin: 3px;
+    box-shadow: 5px 5px 5px rgba(248, 192, 39, 0.5);
+    background-color:rgba(246, 247, 221, 0.966);
+}
+.crossText{
+    text-decoration: line-through;
+}
+.price{
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border: solid 1px;
+    background-color: rgba(243, 251, 252, 0.966);
+    color:rgba(58, 46, 46, 0.8);
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px rgba(87, 235, 240, 0.5);
+}
+#cost{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+} 
+#containerSum{
+    display: flex; 
+    justify-content: center;
+}
+#btnSum {
+    font-size: 28px;
+    border: none;
+    width: 180px;
+    height: 40px;
+    margin-right: 10px;
+    font-family: 'Caveat', cursive;
+    background-color: rgb(228, 252, 253);
+}
+#btnSum:hover{
+    background-color: rgb(248, 244, 180);
+}
+span{
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+ #par{
+    
+    font-weight: bold;
+    color:rgb(250, 241, 110) ;
+} 
+
+#money{
+    margin-left: 10px;
+    
+}
+.moneyYellow{
+  color: rgb(250, 241, 110);  
+}
+
+@media all and (max-width:500px){
+#field{
+    width: 300px;
+    margin-left: 20px;
+}
+ul{
+    margin-left: -30px;
+} 
+.list{
+    width: 280px;
+    margin-left: 10px;
+}}
+@media all and (max-width:400px){
+#field{
+    width: 200px;
+    height: 50px;
+}
+ul{
+    margin-left: -20px;
+} 
+.list{
+    font-size: 25px;
+    width: 200px;
+    height: 40px;
+}
+.price{
+    width: 70px;
+    height: 38px;
+}
+
+}
